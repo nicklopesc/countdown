@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900 & display=trocar');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
 *{
     margin: 0;
@@ -13,8 +13,13 @@ body{
 
 .conteudo{
     margin-top: -600px;
-    font-family: 'Poppins', sem serifa;
+    font-family: 'Poppins', sans-serif;
 }
+
+.conteudo p{
+    width: 900px;
+}
+
 main{
     font-size: 30px;
     color: white;
@@ -24,7 +29,7 @@ main{
 }
 main h1{
     margin: auto;
-    font-family: 'Poppins', sem serifa;
+    font-family: 'Poppins', sans-serif;
 }
  main p{
     width: 50%;
@@ -33,7 +38,7 @@ main h1{
     margin: 0 auto;
     margin-top: 20px;
     line-height: 30px;
-    font-family: 'Poppins', sem serifa;
+    font-family: 'Poppins', sans-serif;
     font-weight: lighter;
  }
 
@@ -45,7 +50,7 @@ main h1{
     align-items: center;
     margin-top: 20px;
     margin-left: 130px;
-    font-family: 'Poppins', sem serifa;
+    font-family: 'Poppins', sans-serif;
 }
 
 button{
@@ -57,7 +62,7 @@ button{
     margin: auto;
     margin-top: 15px;
     font-size: 16px;
-    font-family: 'Poppins', sem serifa;
+    font-family: 'Poppins', sans-serif;
 }
 
 button:hover{
@@ -72,7 +77,7 @@ input{
     border-radius: 20px;
     border: none;
     font-size: 15px;
-    font-family: 'Poppins', sem serifa;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container{
@@ -85,7 +90,7 @@ input{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.329);
     color: black;
-    font-family: 'Poppins', sem serifa;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -110,12 +115,12 @@ input{
     margin: 0 auto;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 80px;
+    margin-top: 60px;
     line-height: 20px;
 }
 
 .countdown h1{
-    font-size: 60px;
+    font-size: 50px;
     text-shadow: 0 0 10px whitesmoke;
     margin-left: -10px;
 }
